@@ -29,7 +29,7 @@ mesa-demos
 
 # -- wayland desktop
 mangowc
-xorg-server-wayland
+xorg-server-xwayland
 xdg-desktop-portal
 xdg-desktop-portal-wlr
 xdg-utils
