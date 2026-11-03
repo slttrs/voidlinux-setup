@@ -1,0 +1,24 @@
+[opener]
+edit = [
+	{ run = 'kitty --detach -o font_family="Hack" -o background="#011627" -o background_opacity=0.8 -o transparent_background_colors="#061e33@0.8" nvim %s && touch "$YAZI_OPENED_FLAG" && kill $PPID', orphan = true, desc = "nvim", for = "unix" },
+
+# 	{ run = 'kitty --detach -o font_family="Hack" -o background="#001000" -o background_opacity=0.8 -o transparent_background_colors="#008000@0.7" nvim %s && touch "$YAZI_OPENED_FLAG" && kill $PPID', orphan = true, desc = "nvim", for = "unix" },
+]
+
+qutebrowser = [
+	{ run = 'qutebrowser %s', orphan = true, desc = "qutebrowser", for = "linux" },
+]
+helium = [
+	{ run = 'helium %s', orphan = true, desc = "Helium", for = "linux" },
+]
+
+[open]
+prepend_rules = [
+	{ url = "*.html", use = [ "qutebrowser", "helium", "edit" ] },
+    { url = "*.pdf", use = ["helium", "librewolf"] },
+]
+
+[mgr]
+show_hidden = true
+linemode = "size_and_btime"
+# sort_by = "size"

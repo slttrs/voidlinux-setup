@@ -1,0 +1,99 @@
+# Ultramarine #0600ff, ruby #E0115F, on black
+# #3b4cff = lighter ultramarine for small text, #0600ff is dark on black
+
+[app]
+overall = { bg = "#000000" }
+
+# ---- no rounded corners ----
+[indicator]
+padding = { open = "▐", close = "▌" }
+
+[status]
+sep_left  = { open = "▐", close = "▌" }
+sep_right = { open = "▐", close = "▌" }
+progress_error = { fg = "#ffffff", bg = "#E0115F" }
+perm_write     = { fg = "#E0115F" }
+
+[tabs]
+sep_inner = { open = "▐", close = "▌" }
+sep_outer = { open = "▐", close = "▌" }
+active    = { fg = "#ffffff", bg = "#004927", bold = true }
+inactive  = { fg = "#0bba28", bg = "#111111" }
+
+# ---- colors ----
+[mgr]
+cwd            = { fg = "#0bba28" }
+border_style   = { fg = "#004927" }
+count_cut      = { fg = "#ffffff", bg = "#E0115F" }
+marker_cut     = { fg = "#E0115F", bg = "#E0115F" }
+marker_marked  = { fg = "#0bba28", bg = "#0bba28" }
+
+[mode]
+normal_main = { fg = "#ffffff", bg = "#004927", bold = true }
+normal_alt  = { fg = "#0bba28", bg = "#111111" }
+select_main = { fg = "#ffffff", bg = "#E0115F", bold = true }
+select_alt  = { fg = "#E0115F", bg = "#111111" }
+unset_main  = { fg = "#ffffff", bg = "#E0115F", bold = true }
+unset_alt   = { fg = "#E0115F", bg = "#111111" }
+
+[which]
+border = { fg = "#004927" }
+
+[confirm]
+border = { fg = "#004927" }
+title  = { fg = "#0bba28" }
+
+[spot]
+border  = { fg = "#004927" }
+title   = { fg = "#0bba28" }
+tbl_col = { fg = "#0bba28" }
+
+[notify]
+title_error = { fg = "#E0115F" }
+
+[pick]
+border = { fg = "#004927" }
+active = { fg = "#E0115F", bold = true }
+
+[input]
+border = { fg = "#004927" }
+
+[cmp]
+border = { fg = "#004927" }
+
+[tasks]
+border  = { fg = "#004927" }
+hovered = { fg = "#E0115F", bold = true }
+
+[help]
+border = { fg = "#004927" }
+chord  = { fg = "#0bba28" }
+
+# ---- file colors ----
+[filetype]
+rules = [
+	# folders
+	{ url = "*/", fg = "#0bba28" },
+	# images and media: ruby
+	{ mime = "**/image/*",         fg = "#ce484a" },
+	{ mime = "**/{audio,video}/*", fg = "#ce484a" },
+	# archives: lighter ruby
+	{ mime = "**/application/{zip,rar,7z*,tar,gzip,xz,zstd,bzip*,lzma,compress,archive,cpio,arj,xar,ms-cab*}", fg = "#ff5c8a" },
+	# documents: lighter ultramarine
+	{ mime = "**/application/{pdf,doc,rtf}", fg = "#0bba28" },
+	# virtual file system
+	{ mime = "vfs/{absent,stale}", fg = "gray" },
+	# special files
+	{ url = "*", is = "orphan", bg = "#ce484a" },
+	{ url = "*", is = "exec",   fg = "green" },
+	{ url = "*", is = "dummy",  bg = "#E0115F" },
+	{ url = "*/", is = "dummy", bg = "#E0115F" },
+]
+# executables stay green (default rule), everything else stays white
+
+# ---- folder icons ----
+[icon]
+prepend_conds = [
+	{ if = "dir & hovered", text = "\uf07c", fg = "#0bba28" },
+	{ if = "dir",           text = "\uf07b", fg = "#0bba28" },
+]

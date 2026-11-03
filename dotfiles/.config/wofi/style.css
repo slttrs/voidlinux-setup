@@ -1,0 +1,61 @@
+* {
+    font-family: "BigBlueTermPlus Nerd Font Mono";
+    font-size: 18px;
+    border-radius: 0;
+}
+
+window {
+    margin: 0;
+    border: 2px solid #0600ff;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+#outer-box {
+    margin: 0;
+    padding: 6px;
+    background-color: transparent;
+}
+
+#input {
+    margin-bottom: 6px;
+    padding: 6px 0px 6px 0;
+    border: 0px;
+    background-color: transparent;
+    color: #bcbbff;
+    box-shadow: none;
+    caret-color: #040693;
+    -gtk-secondary-caret-color: #040693;
+    // border: 1px solid #00ff41;
+}
+
+#input image {
+    -gtk-icon-source: none;
+    color: transparent;
+    -gtk-icon-transform: scale(0);
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#inner-box,
+#scroll {
+    background-color: transparent;
+}
+
+#entry {
+    padding: 4px 8px;
+    border: none;
+    background-color: transparent;
+}
+
+#text {
+    color: #0600ff;
+}
+
+#entry:selected {
+    background-color: rgba(6, 0, 255, 0.15);
+}
+
+#entry:selected #text {
+    color: #bcbbff;
+}
