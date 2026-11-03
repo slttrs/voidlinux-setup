@@ -80,6 +80,7 @@ guvcview
 libreoffice-writer
 libreoffice-calc
 steam
+PrismLauncher
 
 # -- virtualization and containers
 # qemu
