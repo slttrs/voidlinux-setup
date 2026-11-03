@@ -27,8 +27,6 @@ for s in dbus elogind chronyd cronie; do
     fi
 done
 
-# fstab tweak, swap/zram, etc.
-
 # Config files
 echo "Installing config files..."
 
@@ -59,5 +57,8 @@ if [ -f "dotfiles/runit/shutdown" ]; then
     chmod 755 /etc/runit/runsvdir/default/shutdown
 fi
 
+# Set up permanent drive mount in fstab
+echo "UUID=7218F42218F3E2D1 /mnt/D ntfs-3g defaults,nofail,uid=1000,gid=1000,umask=022 0 0" >> /etc/fstab
+echo "UUID=1634F73034F7120B /mnt/B ntfs-3g defaults,nofail,uid=1000,gid=1000,umask=022 0 0" >> /etc/fstab
 
 echo "Done."
