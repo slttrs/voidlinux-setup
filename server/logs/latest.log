@@ -1,0 +1,108 @@
+[21:08:16] [ServerMain/INFO]: [bootstrap] Running Java 25 (Java HotSpot(TM) 64-Bit Server VM 25.0.4.1+1-LTS-5; Oracle Corporation null) on Linux 6.18.59_1 (amd64)
+[21:08:16] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) for Minecraft 26.1.2
+[21:08:16] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[21:08:17] [ServerMain/INFO]: [PluginInitializerManager] Initialized 1 plugin
+[21:08:17] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (1):
+ - voicechat (2.6.24)
+[21:08:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[21:08:22] [ServerMain/INFO]: Loaded 1515 recipes
+[21:08:23] [ServerMain/INFO]: Loaded 1617 advancements
+[21:08:23] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[21:08:23] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 344.8ms
+[21:08:23] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[21:08:23] [Server thread/INFO]: Loading properties
+[21:08:23] [Server thread/INFO]: This server is running Paper version 26.1.2-74-ver/26.1.2@e4e17fc (2026-07-06T16:51:09Z) (Implementing API version 26.1.2.build.74-stable)
+[21:08:23] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[21:08:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:08:23] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:08:23] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[21:08:24] [Server thread/INFO]: Default game type: SURVIVAL
+[21:08:24] [Server thread/INFO]: Generating keypair
+[21:08:24] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:08:24] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[21:08:24] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[21:08:24] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.24
+[21:08:24] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:08:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[21:08:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[21:08:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[21:08:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[21:08:24] [Server thread/INFO]: Preparing level "world"
+[21:08:24] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[21:08:24] [Server thread/INFO]: Prepared spawn area in 0 ms
+[21:08:24] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[21:08:24] [Server thread/INFO]: Prepared spawn area in 0 ms
+[21:08:24] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_end'...
+[21:08:24] [Server thread/INFO]: Prepared spawn area in 0 ms
+[21:08:24] [Server thread/INFO]: Done preparing level "world" (0.404s)
+[21:08:24] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.24
+[21:08:24] [Server thread/INFO]: [voicechat] Initializing compatibility for version 26.1.2.build.74-stable
+[21:08:24] [Server thread/INFO]: [voicechat] Compatibility version 20
+[21:08:24] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[21:08:25] [Server thread/INFO]: [spark] Starting background profiler...
+[21:08:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[21:08:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[21:08:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[21:08:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[21:08:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:08:25] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:08:25] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:08:25] [Server thread/INFO]: Running delayed init tasks
+[21:08:25] [Server thread/INFO]: Done (10.069s)! For help, type "help"
+[21:08:25] [Server thread/INFO]: [voicechat] Loading plugins
+[21:08:25] [Server thread/INFO]: [voicechat] Loaded 0 plugin(s)
+[21:08:25] [Server thread/INFO]: [voicechat] Initializing plugins
+[21:08:25] [Server thread/INFO]: [voicechat] Initialized 0 plugin(s)
+[21:08:25] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[21:08:25] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[21:08:26] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[21:08:26] [Paper Async Task Handler Thread - 1/WARN]: You are running the latest build for your Minecraft version (26.1.2)
+[21:08:26] [Paper Async Task Handler Thread - 1/WARN]: However, you are 4 release(s) behind the latest stable release (26.3)!
+[21:08:26] [Paper Async Task Handler Thread - 1/WARN]: It is recommended that you update as soon as possible
+[21:08:26] [Paper Async Task Handler Thread - 1/WARN]: https://papermc.io/downloads/paper
+[21:08:26] [Paper Async Task Handler Thread - 1/WARN]: *************************************************************************************
+[21:08:37] [User Authenticator #0/INFO]: UUID of player _KCray_ is a5607487-540d-37e7-9b11-c23ae70af332
+[21:08:39] [Server thread/INFO]: _KCray_ joined the game
+[21:08:39] [Server thread/INFO]: _KCray_[/127.0.0.1:40694] logged in with entity id 195 at ([minecraft:overworld]158.87781222708605, 65.0, -32.85934746931915)
+[21:08:39] [Server thread/INFO]: [voicechat] Received secret request of _KCray_ (20)
+[21:08:39] [Server thread/INFO]: [voicechat] Sent secret to _KCray_
+[21:08:40] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player a5607487-540d-37e7-9b11-c23ae70af332
+[21:08:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player a5607487-540d-37e7-9b11-c23ae70af332
+[21:08:41] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player _KCray_ (a5607487-540d-37e7-9b11-c23ae70af332) successfully connected to voice chat
+[22:24:54] [Server thread/INFO]: _KCray_ lost connection: Disconnected
+[22:24:54] [Server thread/INFO]: [voicechat] Disconnecting client _KCray_
+[22:24:54] [Server thread/INFO]: _KCray_ left the game
+[22:40:29] [Server thread/INFO]: Stopping the server
+[22:40:29] [Server thread/INFO]: Stopping server
+[22:40:29] [Server thread/INFO]: [voicechat] Disabling voicechat v2.6.24
+[22:40:29] [Server thread/INFO]: Saving players
+[22:40:29] [Server thread/INFO]: Saving worlds
+[22:40:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:40:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:overworld'
+[22:40:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:overworld'
+[22:40:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:overworld'
+[22:40:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:overworld' in 0.00s
+[22:40:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:overworld'
+[22:40:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:overworld'
+[22:40:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[22:40:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_nether'
+[22:40:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_nether'
+[22:40:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_nether'
+[22:40:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_nether' in 0.00s
+[22:40:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_nether'
+[22:40:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_nether'
+[22:40:29] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[22:40:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'minecraft:the_end'
+[22:40:29] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'minecraft:the_end'
+[22:40:29] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'minecraft:the_end'
+[22:40:29] [Server thread/INFO]: [ChunkHolderManager] Saved 0 block chunks, 0 entity chunks, 0 poi chunks in world 'minecraft:the_end' in 0.00s
+[22:40:29] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'minecraft:the_end'
+[22:40:29] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'minecraft:the_end'
+[22:40:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:40:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:40:29] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:40:29] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[22:40:29] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[22:40:29] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[22:40:29] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[22:40:29] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

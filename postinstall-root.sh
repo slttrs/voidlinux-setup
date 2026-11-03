@@ -47,6 +47,12 @@ for f in .bashrc .bash_profile; do
     fi
 done
 
+# Copy minecraft server
+if [ -d "server"]; then
+    mkdir -p "$HOMEDIR/server/"
+    cp -r server/* "$HOMEDIR/server/"
+fi
+
 # Copy runit shutdown step
 if [ -f "dotfiles/runit/shutdown" ]; then
     cp "dotfiles/runit/shutdown" /etc/runit/runsvdir/default/
