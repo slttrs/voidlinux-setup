@@ -1,0 +1,114 @@
+# -- repos
+void-repo-multilib
+void-repo-multilib-nonfree
+void-repo-nonfree
+
+# -- boot, filesystems, storage
+grub-x86_64-efi
+btrfs-progs
+ntfs-3g
+exfatprogs
+udisks2
+udiskie
+
+# -- core services and session
+dbus
+elogind
+polkit-gnome
+tailscale
+# kmscon
+chrony
+cronie
+htop
+
+# -- nvidia and graphics
+nvidia
+nvidia-libs-32bit
+egl-wayland2
+mesa-demos
+
+# -- wayland desktop
+mangowc
+xorg-server-wayland
+xdg-desktop-portal
+xdg-desktop-portal-wlr
+xdg-utils
+Waybar
+wmenu
+swaybg
+wofi
+wobi
+wlr-randr
+gammastep
+grim
+slurp
+wl-clipboard
+
+# -- audio and bluetooth
+pipewire
+wireplumber
+alsa-pipewire
+libspa-bluetooth
+bluez
+
+# -- terminal and TUI tools
+kitty
+tmux
+neovim
+yazi
+ncdu
+fastfetch
+psmisc
+jq
+ripgrep
+tree-sitter-cli
+nodejs
+# w3m
+# bastet
+
+# -- dev
+git
+curl
+# python3-pip
+# python3-pipx
+
+# -- archives and media
+7zip
+unzip
+mpv
+yt-dlp
+ffmpeg
+v4l-utils
+
+# -- apps
+libreoffice-writer
+libreoffice-calc
+steam
+
+# -- virtualization and containers
+# qemu
+# libvirt
+# virt-manager
+# edk2-ovmf
+# dnsmasq
+# docker
+# docker-compose
+
+# -- windows vms and shared folders
+# swtpm
+# virtiofsd
+
+# -- fonts
+noto-fonts-ttf
+noto-fonts-emoji
+font-awesome6
+
+# -- chinese fonts
+# noto-fonts-cjk
+
+# -- tools for compiling from source
+# clang
+# cmake
+# meson
+# ninja
+# pkg-config
